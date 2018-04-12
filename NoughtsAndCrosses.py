@@ -3,6 +3,30 @@ Noughts and Crosses game
 Started coding: 27/01/2018
 Author: Katie Binley
 """
+
+"""
+Forked & Cr4ck3d by R4inBird 12/05/2018
+
+Suggestions/To do list.
+
+1.  create a seperate function defining player turns, thus
+    enabling the computer to go first and phasing out the need
+    for an end turn button.
+
+2.  Fix bug where computer misses obvious winning moves (negative array I think)
+
+3.  Potentially exploit the bug to add a difficulty setting (adjustable array possibly)
+
+4.  Add a timer and/or scoreboard (fastest time)
+
+5.  WARGAMES MODE when the player wins the computer plays itself for several moves getting faster
+    with each pass until eventualy flashing all squares in a pretty pattern
+    before eventually displaying the message 
+    "Strange Game, the only winning move is not to play. How about a nice game of chess?"
+    The player is then prompted to "Play again?" or "Quit"
+    see: https://www.youtube.com/watch?v=NHWjlCaIrQo
+"""
+
 try:
     import tkinter as tk
 except ImportError:
